@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ece7ebf1;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para los títulos */
+.titulo-horario {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f30404; 
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse; /* Une los bordes */
+    background: rgb(138, 43, 111);
+    border-radius: 10px;
+}
+
+/* Bordes y formato de celdas */
+th, td {
+    border: 2px solid #27117c; /* Hace los bordes más gruesos y visibles */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Encabezados de la tabla */
+th {
+    background-color: #7febe5;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Celdas con información */
+td {
+    font-size: 16px;
+    background: #8393d5;
+}
+
+/* Aplica un fondo a las celdas con contenido */
+td:not(:empty) {
+    background: #fcfff5;
+    border-radius: 5px;
+}
+

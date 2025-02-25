@@ -1,0 +1,22 @@
+.boton1{
+    background-color: blue;
+    color: azure;
+}
+
+.boton2{
+    border-radius: 15px;
+    background-color: rgb(243, 88, 45);
+    color: rgb(230, 232, 218);
+    padding: 10px 20px;
+}
+
+.boton3{
+    border-radius: 15px;
+    background-color: rgb(0, 255, 72);
+    color: rgb(118, 26, 95);
+    padding: 10px 20px;
+    text-align: end;
+    border: none;
+    font-size: 25px;
+    font-family: cursive;
+}
