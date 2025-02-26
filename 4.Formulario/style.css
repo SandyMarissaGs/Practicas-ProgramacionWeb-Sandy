@@ -1,24 +1,29 @@
-input, select, button {
-    padding: 10px;
-    margin: 5px;
-}
-/* Estilo para el título */
 h1 {
+    font-family: Monospace, cursive; 
+    font-size: 28px;
+    font-weight: bold;
+    color: hsl(0, 91%, 26%);
     text-align: center;
-    font-size: 24px;
-    color: #333;
-    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
 }
 
-/* Estilo para el botón */
-button {
-    background-color: #007bff;
-    color: white;
+input, select, button {
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    width: 100%;
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid hsl(146, 87%, 33%);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
+button {
+    background-color: hsl(297, 82%, 24%);
+    color: rgb(241, 240, 244);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: hsl(320, 89%, 40%);
+    transform: scale(1.05);
+}
