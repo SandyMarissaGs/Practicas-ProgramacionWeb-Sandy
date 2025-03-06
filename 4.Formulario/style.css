@@ -1,0 +1,29 @@
+h1 {
+    font-family: Monospace, cursive; 
+    font-size: 28px;
+    font-weight: bold;
+    color: hsl(0, 91%, 26%);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid hsl(146, 87%, 33%);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color: hsl(297, 82%, 24%);
+    color: rgb(241, 240, 244);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: hsl(320, 89%, 40%);
+    transform: scale(1.05);
+}
